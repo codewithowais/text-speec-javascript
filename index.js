@@ -17,6 +17,6 @@ myForm.onsubmit = (event) => {
   ourText = textInputField.value;
   utterThis.text = ourText;
   synth.speak(utterThis);
-  alert("Hello World");
+  // alert("Hello World");
   textInputField.value = "";
 };
